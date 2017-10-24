@@ -247,6 +247,7 @@ h3{
 	
 	max-width: 500px;
 	
+	border-radius: 30px;	
 	box-shadow: 0 0 20px 5px #ddd;
 	
 	position: relative;
@@ -477,6 +478,26 @@ h3{
 	border: 1px solid #999;
 	padding: 10px;
 }
+
+
+
+
+/* MAPA */
+
+.mapa{
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERIES */
 
