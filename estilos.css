@@ -1,0 +1,229 @@
+/* ASYTEC/estilos.css */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("imagenes/fondo.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: arial;
+}
+
+h2{
+	text-align: center;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+
+/* HEADER */
+
+.header{
+	background-color: #fff;
+	height: 100px;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	box-shadow: 0 0 15px #000;
+	
+	overflow: auto;
+}
+
+.logo{
+	float: left;
+	margin-left: 100px;
+	position: relative;
+}
+
+.nav{
+	float: right;
+	background-color: #fff;
+	display: block;
+	position: relative;
+	height: 100px;
+	right: 0;
+}
+
+.nav ul{
+	list-style-type: none;
+	background-color: pink;
+	margin-right: 100px;
+	position: relative;
+	display: block;
+}
+
+.nav li{
+	float: left;
+	padding-top: 32px;
+	background-color: #fff;
+	height: 100px;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	padding: 15px;
+	
+	transition: color, text-shadow 0.5s;
+}
+
+.nav a:hover{
+	color: #152c75;
+	text-shadow: 1px 1px 1px #ddd;
+}
+
+
+
+/* HOME */
+
+.home{
+	margin-top: 100px;
+	overflow: auto;
+	position: relative;
+	padding: 50px;
+	color: #fff;
+	text-align: center;
+	
+	overflow: auto;
+}
+
+.home h1{
+	font-weight: normal;
+	font-size: 40px;
+}
+
+.home p{
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 150px;
+}
+
+
+
+/* EMPRESA */
+
+.empresa{
+	background-color: #fff;
+	padding: 50px;
+	
+}
+
+.empresa h3{
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #152c75;
+}
+
+.empresa div{
+	margin: 50px;
+	margin-bottom: 50px;
+}
+
+.empresa p{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+}
+
+/*
+.politicas{
+	margin-top: 200px;
+}
+
+
+.politicas ul{
+	margin-top: 20px;
+	margin-left: 15%;
+	max-width: 70%;
+	text-align: justify;
+	
+	list-style-type: none;
+}
+
+.politicas li{
+	margin-top: 10px;
+}
+*/
+
+.servicios{
+	margin-top: 200px;
+	background-color:#fff;
+	padding: 50px;
+		
+	overflow: auto;
+}
+
+.servicios h3{
+	padding: 20px;
+	text-transform: uppercase;
+}
+	
+.servicios-box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	
+	text-align: center;
+	margin-top: 50px;
+}
+
+.servicios-item{
+	float: left;
+	background-color: #fff;
+	margin-bottom: 50px;
+	flex-grow: 1;
+	
+	max-width: 500px;
+	
+	box-shadow: 0 0 20px 5px #ddd;
+	
+}
+
+.servicios-item img{
+	
+}
+
+.clientes{
+	clear: both;
+}
+
+
+@media (max-width: 1150px){
+	.servicios-item{
+		max-width: 400px;
+	}
+	
+	.servicios-item img{
+		max-width: 400px;
+	}
+}
+
+@media (max-width: 950px){
+	.servicios-item{
+		margin: auto;
+		margin-bottom: 50px;
+		max-width: 500px;
+	}
+	
+	.servicios-item img{
+		max-width: 500px;
+	}
+}
+
+
+
+
+
+
