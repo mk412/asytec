@@ -491,12 +491,30 @@ h3{
 
 
 
+/* PIE */
 
+.pie{
+	background-color: #152c75;
+	height: 70px;
+	padding: 25px;
+	color: white;
+}
 
+.pie a{
+	text-decoration: none;
+}
 
+.copyright{
+	float: left;
+}
 
+.redes{
+	float: right;
+}
 
-
+.redes img{
+	padding-left: 10px;
+}
 
 
 /* MEDIA QUERIES */
