@@ -222,7 +222,11 @@ h2{
 	}
 }
 
-
+@media (orientation:portrait){
+	.servicios-item{
+		margin: auto;
+		max-width: 90vw;
+}
 
 
 
