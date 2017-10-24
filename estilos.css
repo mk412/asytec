@@ -46,6 +46,7 @@ h3{
 	float: left;
 	margin-left: 100px;
 	position: relative;
+	max-height: 100%;
 }
 
 
@@ -91,7 +92,7 @@ h3{
 
 .nav a:hover{
 	color: #152c75;
-	text-shadow: 1px 1px 10px #ddd;
+	text-shadow: 1px 1px 4px #aaa;
 }
 
 
@@ -147,9 +148,6 @@ h3{
 /* HOME */
 
 .home{
-	margin-bottom: 35vh;
-	overflow: auto;
-	position: relative;
 	padding: 50px;
 	color: #fff;
 	text-align: center;
@@ -157,11 +155,17 @@ h3{
 	overflow: auto;
 }
 
+.home-box{
+	height: 400px;
+	padding-top: 250px;
+	padding-bottom: 100px;
+	position: relative;
+}
+
 .home h1{	
-	margin-top: 20vh;
+	/* margin-top: 20vh; */
 	font-weight: normal;
 	font-size: 50px;
-	font-family: 'Raleway', sans-serif;
 }
 
 .home p{
@@ -177,7 +181,7 @@ h3{
 /* EMPRESA */
 
 .empresa{
-	margin-top: 200px;
+	margin-top: 50px;
 	background-color: #fff;
 	padding: 0 50px 50px 50px;
 }
@@ -353,7 +357,7 @@ h3{
 }
 
 .cv h3{
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
 }
 
@@ -416,7 +420,7 @@ h3{
 }
 
 .enviar-boton{
-	margin-top: 40px;
+	margin-top: 50px;
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
@@ -445,6 +449,11 @@ h3{
 	margin: auto;
 	max-width: 550px;
 	padding: 30px;
+	margin-bottom: 70px;
+}
+
+.consulta h3{
+	font-size: 24px;
 }
 
 .consulta form{
