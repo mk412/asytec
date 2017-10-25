@@ -588,6 +588,11 @@ h3{
 }
 
 @media (max-width: 768px){
+	
+	.header{
+		height: 10vh;
+	}
+	
 	.nav-m{
 		display: block;
 	}
