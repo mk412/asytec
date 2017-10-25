@@ -7,7 +7,8 @@
 }
 
 body{
-	background-image: url("imagenes/fondo.jpg");
+	/* background-image: url("imagenes/fondo.jpg"); */
+	background-color: #06133c;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
