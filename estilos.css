@@ -619,6 +619,8 @@ h3{
 	
 	.home p{
 		text-align: justify;
+		margin: 0;
+		padding: 0;
 	}
 	
 	.home-box{
@@ -640,12 +642,14 @@ h3{
 	.empresa p{
 		text-align: justify;
 		font-size: 15px;
+		margin: 0;
+		padding: 0;
 	}
 	
 	.servicios{
 		margin: 0px;
 		margin-top: 150px;
-		padding: 0;
+		padding: 5px;
 	}
 	
 	
