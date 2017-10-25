@@ -723,7 +723,16 @@ h3{
 	}
 	
 	.mapa{
-		
+			
+	}
+	
+	.pie{		
+		margin: 0;
+		padding: 20px;
+	}
+	
+	.pie p{
+		font-size: 12px;
 	}
 	
 }
