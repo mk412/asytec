@@ -7,7 +7,7 @@
 }
 
 body{
-	/* background-image: url("imagenes/fondo.jpg"); */
+	background-image: url("imagenes/fondo.jpg");
 	background-color: #06133c;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -122,6 +122,7 @@ h3{
 	background-color: blue;
 	
 	display: none;
+	border: none;
 }
 
 .nav-m a{
@@ -608,7 +609,7 @@ h3{
 	}
 	
 	.header{
-		height: 15vh;
+		height: 10vh;
 	}
 	
 	.home{
