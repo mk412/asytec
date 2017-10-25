@@ -539,13 +539,17 @@ h3{
 
 @media (max-width: 850px){
 	
-	.home h1{
-		font-size: 30px;
+	.home{
+		margin: 0;
+		padding: 0;
 	}
-}
+	
+	.home h1{
+		font-size: 35px;
+	}
 	
 	.home p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
 
@@ -588,11 +592,7 @@ h3{
 }
 
 @media (max-width: 768px){
-	
-	.header{
-		height: 10vh;
-	}
-	
+		
 	.nav-m{
 		display: block;
 	}
@@ -604,6 +604,60 @@ h3{
 	.logo{
 		margin-left: 40%;
 		position: relative;
+	}
+	
+	.header{
+		height: 10vh;
+	}
+	
+	.home{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.home p{
+		text-align: justify;
+	}
+	
+	.home-box{
+		margin: 0;
+		margin-top: 15vh;
+		padding: 0;
+	}
+	
+	.empresa{
+		margin: 0;
+		padding: 0;
+		padding-bottom: 2px;
+	}
+	
+	.empresa h3{
+		font-size: 25px;
+	}
+	
+	.empresa p{
+		text-align: justify;
+		font-size: 15px;
+	}
+	
+	.servicios{
+		margin: 0px;
+		margin-top: 150px;
+		padding: 0;
+	}
+	
+	
+	.contacto{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.cv-input{
+		width: 50vw;
+	}
+	
+	.inputfile + label{
+		width: 50vw;
 	}
 	
 }
