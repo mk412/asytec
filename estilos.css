@@ -587,7 +587,7 @@ h3{
 	}
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
 	.nav-m{
 		display: block;
 	}
