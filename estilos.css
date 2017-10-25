@@ -700,15 +700,30 @@ h3{
 	}
 	
 	.consulta-name{
-		width: 40vw;
+		max-width: 40vw;
+		float: none;
+		margin: auto;
+		padding: 0;
+		padding-top: 25px;
 	}
 	
 	.consulta-email{
-		width: 40vw;
+		max-width: 40vw;
+		float: none;
+		margin: auto;
+		padding: 0;
+		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 	
 	.consulta-textarea{
 		width: 80vw;
+		margin: auto;
+		padding: 0;
+	}
+	
+	.mapa{
+		
 	}
 	
 }
