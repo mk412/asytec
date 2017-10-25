@@ -620,7 +620,7 @@ h3{
 	.home p{
 		text-align: justify;
 		margin: 0;
-		padding: 0;
+		padding: 5px;
 	}
 	
 	.home-box{
@@ -643,7 +643,7 @@ h3{
 		text-align: justify;
 		font-size: 15px;
 		margin: 0;
-		padding: 0;
+		padding: 5px;
 	}
 	
 	.servicios{
