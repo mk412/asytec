@@ -41,11 +41,11 @@
 		mail($destino, $asunto, $cuerpo, $cabeceras);
 			
 				
-		$cabeceras .= 'De: ASYTEC Sistemas SRL <contacto@dominio.com.ar>'. "\r\n";
+		$cabeceras .= 'De: ASYTEC Sistemas <info@asytec.com>'. "\r\n";
 		
-		mail($email, "Consulta a ASYTEC Sistemas SRL.", "Gracias por comunicarte con nosotros. Recibimos tu consulta y te responderemos a la brevedad.", $cabeceras);
+		mail($email, "ASYTEC - Contacto", "Muchas gracias por ponerse en contacto con nosotros. ASYTEC Sistemas.", $cabeceras);
 		
-		echo "Mail enviado, verifica tu casilla de correo no deseado.";
+		// echo "Mail enviado, verifica tu casilla de correo no deseado.";
 	} // cierra else
 	
 ?>

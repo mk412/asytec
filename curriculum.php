@@ -35,7 +35,7 @@
 		$asunto  = "$nombre desde asytec.com";
 		$cuerpo  = "Currículum Vitae de $nombre";
 		
-		$cabeceras = "De: $nombre" . " <" . $email . ">" . "\r\n";
+		$cabeceras = "De: " . $nombre . " <" . $email . "> \r\n";
 		
 		//boundary 
 		$semi_rand = md5(time()); 
@@ -68,11 +68,11 @@
 		
 		mail($destino, $asunto, $cuerpo, $cabeceras);
 						
-		$cabeceras .= 'De: ASYTEC Sistemas SRL <contacto@dominio.com.ar>'."\r\n";
+		$cabeceras .= 'De: ASYTEC Sistemas <info@asytec.com>'."\r\n";
 		
-		mail($email, "ASYTEC Sistemas SRL.", "Gracias por comunicarte con nosotros. Recibimos tus datos y te responderemos a la brevedad.", $cabeceras);
+		mail($email, "ASYTEC - Recepción de CV" "Muchas gracias por ponerse en contacto con nosotros. ASYTEC Sistemas.", $cabeceras);
 		
-		echo "Mail enviado, verifica tu casilla de correo no deseado.";
+		// echo "Mail enviado, verifica tu casilla de correo no deseado.";
 	} // cierra else
 		
 ?>
