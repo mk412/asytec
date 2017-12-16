@@ -34,7 +34,7 @@ h3{
 
 .header{
 	background-color: #fff;
-	height: 75px;
+	height: 80px;
 	width: 100vw;
 	position: fixed;
 	top: 0;
@@ -46,10 +46,10 @@ h3{
 
 
 .logo{
-	/* background-color: red; */
 	float: left;
 	margin-left: 100px;
 	position: relative;
+	max-height: 75px;
 }
 
 .logo img{
@@ -73,7 +73,6 @@ h3{
 
 .nav ul{
 	list-style-type: none;
-	background-color: pink;
 	margin-right: 80px;
 	position: relative;
 	display: block;
@@ -82,8 +81,6 @@ h3{
 .nav li{
 	float: left;
 	padding-top: 45px;
-	background-color: #fff;
-	height: 100px;
 }
 
 .nav a{
@@ -216,6 +213,7 @@ h3{
 /* DESTACADOS */
 
 .destacados{
+	padding-top: 20px;
 	display: flex;
 	align-items: center;
 	
@@ -231,7 +229,6 @@ h3{
 	flex-grow: 1;
 	max-width: 25vw;
 	height: 300px;
-	
 }
 
 .destacados button{
