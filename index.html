@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<title>ASYTEC Sistemas S.R.L.</title>
-		<link href="estilos.css" rel="stylesheet">
+		<link href="css/estilos.css" rel="stylesheet">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -14,18 +14,18 @@
 			<div class="header">
 				<div class="logo">
 					<a href="#">
-						<img src="imagenes/logoplaceholder.png" alt="ir a inicio">
+						<img src="imagenes/logo.png" alt="ir a inicio">
 					</a>
 				</div>
 				<!-- end .logo -->
 				
 				<div class="nav">
 					<ul>
-						<li><a href="#home">Inicio</a></li>
-						<li><a href="#empresa">La empresa</a></li>
-						<li><a href="#servicios">Servicios</a></li>
-						<li><a href="#clientes">Clientes</a></li>
-						<li><a href="#contacto">Contacto</a></li>
+						<li><a href="#home" class="anchorLink">Inicio</a></li>
+						<li><a href="#empresa" class="anchorLink">La empresa</a></li>
+						<li><a href="#servicios" class="anchorLink">Servicios</a></li>
+						<li><a href="#clientes" class="anchorLink">Clientes</a></li>
+						<li><a href="#contacto" class="anchorLink">Contacto</a></li>
 					</ul>
 				</div>
 				<!-- end .nav -->		
@@ -36,11 +36,11 @@
 					</button>
 					
 					<ul class="nav-m-list" id="list">
-						<li><a href="#home">Inicio</a></li>
-						<li><a href="#empresa">La empresa</a></li>
-						<li><a href="#servicios">Servicios</a></li>
-						<li><a href="#clientes">Clientes</a></li>
-						<li><a href="#contacto">Contacto</a></li>
+						<li><a href="#home" class="anchorLink">Inicio</a></li>
+						<li><a href="#empresa" class="anchorLink">La empresa</a></li>
+						<li><a href="#servicios" class="anchorLink">Servicios</a></li>
+						<li><a href="#clientes" class="anchorLink">Clientes</a></li>
+						<li><a href="#contacto" class="anchorLink">Contacto</a></li>
 					</ul>
 				</div>
 				<!-- end .nav-m -->
@@ -53,28 +53,69 @@
 					<div class="home-box">
 						<h1>Consultoría y desarrollo en informática</h1>
 						
-						<p>Desde 1993, una empresa argentina que brinda servicios a más de 70 empresas nacionales e internacionales de diversos sectores de la economía. Tiene por objetivo representar un papel protagónico en el área informática, manteniéndose a la vanguardia de los cambios tecnológicos y organizacionales.</p>
+						<p>Brindando servicios a más de 100 empresas de diversos sectores de la economía desde 1993.</p>
 					</div>
 				</div>
 				<!-- end .home -->
 				
 				<div class="empresa" id="empresa">
 				
-					<h2>La Empresa</h2>
-										
-					<div class="quienes">
-						<h3>Quiénes somos</h3>
+					<div class="destacados">
+						<div class="destacados-item">
+							<img src="imagenes/dest-1.png" alt="Consultoría y desarrollo"><br>
+							<h3>Consultoría y desarrollo</h3>
+							<p>Consultoría y customización de software, Desarrollos sobre plataformas, Intranet/Extranet: Desarrollo e implementación, Integración con sistemas de gestión...</p>
+							<a href="#servicios" class="anchorLink"><button>Seguir leyendo</button></a>
+						</div>
 						
-						<!-- <img src="imagenes/portraitplaceholder.png" alt=""> -->
+						<div class="destacados-item">
+							<img src="imagenes/dest-2.png" alt="Soporte microinformática"><br>
+							<h3>Soporte microinformática</h3>
+							<p>Administración de Redes, Servidores y puestos de trabajo, mantenimiento preventivo-correctivo de PCs, Asistencia remota a usuarios de PCs, Servicio Técnico de PCs...</p>
+							<a href="#servicios" class="anchorLink"><button>Seguir leyendo</button></a>
+						</div>
 						
-						<p>A comienzos de 1993, el ingeniero Alejandro Gómez y el licenciado Claudio Gómez crearon ASYTEC con la idea de reunir en una sola empresa las mejores virtudes de distintas compañías que habían conocido en sus carreras laborales.</p>
-					
-						<p>El resultado de estos años de trabajo se refleja en la confianza de nuestros clientes que se suman año tras año, contribuyendo al crecimiento del staff profesional de ASYTEC.<p>
-					
-						<p>Más de 70 empresas argentinas e internacionales, de diversos sectores de la economía, han encontrado en ASYTEC una solución adecuada a cada requerimiento. Con todas ellas se han establecido relaciones prolongadas, basadas en la confianza mutua y en el profesionalismo.</p>
+						<div class="destacados-item">
+							<img src="imagenes/dest-3.png" alt="Seguridad informática"><br>
+							<h3>Seguridad informática</h3>
+							<p>Consultoría Organizacional en Seguridad Informática, Auditoría de Seguridad de la Información, Evaluación de Riesgo, Detección de Vulnerabilidades en equipamiento...</p>
+							<a href="#servicios" class="anchorLink"><button>Seguir leyendo</button></a>
+						</div>
 					</div>
-					<!-- end .quienes -->
-										
+					
+					<h2>Quiénes somos</h2>
+					
+					<div class="q1">
+						<table>
+							<tr>
+								<td>
+									<img src="imagenes/portraitplaceholder.png" alt="Retrato de Alejandro Gómez">
+								</td>
+						
+								<td>
+									<p>A comienzos de 1993, el ingeniero Alejandro Gómez y el licenciado Claudio Gómez crearon ASYTEC con la idea de reunir en una sola empresa las mejores virtudes de distintas compañías que habían conocido en sus carreras laborales.</p>
+								</td>
+								
+							</tr>
+						</table>
+					</div>
+					
+					<div class="q2">
+						<table>
+							<tr>
+								<td>
+									<img src="imagenes/portraitplaceholder.png" alt="Retrato de Claudio Gómez">
+								</td>
+														
+								<td>
+									<p>El resultado de estos años de trabajo se refleja en la confianza de nuestros clientes que se suman año tras año, contribuyendo al crecimiento del staff profesional de ASYTEC.<br>
+							
+									Más de 70 empresas argentinas e internacionales, de diversos sectores de la economía, han encontrado en ASYTEC una solución adecuada a cada requerimiento. Con todas ellas se han establecido relaciones prolongadas, basadas en la confianza mutua y en el profesionalismo.</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
 				</div>
 				<!-- end .empresa -->
 				
@@ -86,7 +127,7 @@
 					<div class="servicios-box">
 					
 					<div class="servicios-item">
-						<h3>Consultoría y desarrollo</h3>
+						<h4>Consultoría y desarrollo</h4>
 						<img src="imagenes/serv1.jpg" alt="">
 							<div class="info">
 								<p>Consultoría y customización de software, Desarrollos sobre plataformas, Intranet/Extranet</p>
@@ -96,7 +137,7 @@
 					<!-- end .consultoria -->
 					
 					<div class="servicios-item">
-						<h3>Outsourcing</h3>
+						<h4>Outsourcing</h4>
 						<img src="imagenes/serv3.jpeg" alt="">
 							<div class="info">
 								<p>Help Desk funcional:	JDEdwards, SAP, BPCS, Oracle Finnancials<br>
@@ -107,7 +148,7 @@
 					<!-- end .outsourcing -->
 					
 					<div class="servicios-item">
-						<h3>Seguridad Informática</h3>
+						<h4>Seguridad Informática</h4>
 						<img src="imagenes/serv4.jpeg" alt="">
 							<div class="info">
 								<p>Consultoría Organizacional en Seguridad Informática, Auditoría de Seguridad de la Información, Evaluación de Riesgo, Detección de Vulnerabilidades en equipamiento</p>
@@ -117,7 +158,7 @@
 					<!-- end .seguridad -->
 					
 					<div class="servicios-item">
-						<h3>Búsqueda de RRHH</h3>
+						<h4>Búsqueda de RRHH</h4>
 						<img src="imagenes/serv6.jpeg" alt="">
 							<div class="info">
 								<p>Provisión de RRHH especializados en Sistemas, Administración y finanzas, Contabilidad, Compras, Project Management, Data entry</p>
@@ -127,7 +168,7 @@
 					<!-- end .rrhh -->
 					
 					<div class="servicios-item">
-						<h3>Soporte Microinformática</h3>
+						<h4>Soporte Microinformática</h4>
 						<img src="imagenes/serv2.jpg" alt="">
 							<div class="info">
 								<p>Administración de Redes, Servidores y puestos de trabajo, Mantenimiento preventivo-correctivo de PCs, Asistencia remota a usuarios de PCs, Servicio técnico de PCs en oficinas del cliente</p>
@@ -137,7 +178,7 @@
 					<!-- end .microinformatica -->
 					
 					<div class="servicios-item">
-						<h3>Productos</h3>
+						<h4>Productos</h4>
 						<img src="imagenes/serv5.jpeg" alt="">
 							<div class="info">
 								<p>Consultoría e implementación de sistemas de Administración Financiera. Mercap Financial Suite.</p>
@@ -169,7 +210,7 @@
 							<h3>Trabaje con nosotros</h3>
 								<p>Si desea formar parte de nuestro staff, por favor envíenos su CV a través del siguiente formulario:</p>					
 								
-								<form method="post" action="#">
+								<form method="post" action="curriculum.php">
 									Nombre: <input type="text" name="nombre" class="cv-input" placeholder="Nombre completo" required><br>
 									
 									E-mail: <input type="email" name="email" class="cv-input" placeholder="E-mail" required><br>
@@ -189,7 +230,7 @@
 						
 						<div class="consulta">
 							<h3>Consulta</h3>
-								<form method="post" action="#">
+								<form method="post" action="consulta.php">
 								<div class="consulta-name">
 									<input type="text" name="nombre" class="consulta-input" placeholder="Nombre completo" required><br>
 								</div>
@@ -243,7 +284,12 @@
 				}
 			);
 			
+			
+			
 		</script>
+				
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/jquery.anchor.js" type="text/javascript"></script>
 				
 	</body>
 
