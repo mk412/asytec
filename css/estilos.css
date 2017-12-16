@@ -190,9 +190,14 @@ h3{
 	background-size: auto;
 	background-color: #fff;
 	padding: 0 50px 50px 50px;
+	position: relative;
 }
 
-
+.test{
+	height: 50px;
+	position: absolute;
+	top: 300px;
+}
 
 .empresa h3{
 	font-weight: 900;
@@ -202,7 +207,6 @@ h3{
 
 .empresa div{
 	margin: 50px;
-	
 }
 
 .empresa p{
