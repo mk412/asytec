@@ -319,12 +319,12 @@ h3{
 	
 .servicios-box{
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	align-items: center;
 	flex-wrap: wrap;
 	
 	text-align: center;
-	margin-top: 50px;
+	margin: 50px;
 }
 
 .servicios-item{
@@ -652,29 +652,6 @@ h3{
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1000px){
-	
-	.home h1{
-		font-size: 40px;
-	}
-}
-
-@media (max-width: 850px){
-	
-	.home{
-		margin: 0;
-		padding: 0;
-	}
-	
-	.home h1{
-		font-size: 35px;
-	}
-	
-	.home p{
-		font-size: 16px;
-	}
-}
-
 @media (max-width: 1150px){
 	
 	
@@ -695,8 +672,13 @@ h3{
 	}
 }
 
-@media (max-width: 950px){
+
+@media (max-width: 991){
 	
+	.home h1{
+		font-size: 40px;
+	}
+}
 	
 	.nav ul{
 		margin-right: 25px;
@@ -713,7 +695,7 @@ h3{
 	}
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 		
 	.nav-m{
 		display: block;
