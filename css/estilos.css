@@ -187,7 +187,7 @@ h3{
 	margin-top: 70px;
 	background-image: url("../imagenes/fondo2.png");
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 100%;
 	background-color: #fff;
 	padding: 0 50px 50px 50px;
 	position: relative;
