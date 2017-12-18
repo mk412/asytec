@@ -409,11 +409,19 @@ h3{
 .clientes td{
 	position: relative;
 	height: 150px;
+	padding: 20px;
 }
 
 .clientes img{
-	max-width: 18vw;
+	max-width: 15vw;
 	padding: 10px;
+	-webkit-filter: grayscale(100%) opacity(70%);
+	filter: grayscale(100%) opacity(70%);
+	transition: 0.5s;
+}
+
+.clientes img:hover{
+	filter: none;
 }
 
 /*
