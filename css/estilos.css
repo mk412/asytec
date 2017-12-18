@@ -319,7 +319,7 @@ h3{
 	
 .servicios-box{
 	display: flex;
-	/* justify-content: space-between; */
+	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 	
@@ -334,6 +334,7 @@ h3{
 	
 	max-width: 500px;
 	
+	
 	border-radius: 30px;	
 	box-shadow: 0 0 20px 2px #ddd;
 	
@@ -345,6 +346,7 @@ h3{
 .servicios-item img{
 	height: 300px;
 	width: 500px;
+	
 }
 
 .servicios-item:hover h3{
@@ -652,7 +654,7 @@ h3{
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1150px){
+@media (max-width: 1250px){
 	
 	
 	.nav a{
