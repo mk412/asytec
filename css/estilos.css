@@ -664,12 +664,27 @@ h3{
 	.nav ul{
 		margin-right: 50px;
 	}
+	
+	.servicios-box{
+		margin: 20px;
+	}
 		
+	.servicios-item{
+		max-width: 450px;
+	}
+	
+	.servicios-item img{
+		max-width: 450px;
+	}
+}
+
+@media (max-width: 1100px){
+	
 	.servicios-item{
 		max-width: 400px;
 	}
 	
-	.servicios-item img{
+	.servicios img{
 		max-width: 400px;
 	}
 }
@@ -686,15 +701,6 @@ h3{
 		margin-right: 25px;
 	}
 		
-	.servicios-item{
-		margin: auto;
-		margin-bottom: 50px;
-		max-width: 500px;
-	}
-	
-	.servicios-item img{
-		max-width: 500px;
-	}
 }
 
 @media (max-width: 767px){
