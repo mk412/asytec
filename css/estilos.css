@@ -299,7 +299,7 @@ h3{
 	margin-top: 200px;
 	background-image: url("../imagenes/fondo2.png");
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 100%;
 	background-color:#fff;
 	padding: 0 50px 50px 50px;
 		
@@ -385,6 +385,7 @@ h3{
 	clear: both;
 	background-image: url("../imagenes/fondo2.png");
 	background-repeat: no-repeat;
+	background-size: 100%;
 	background-color: #fff;
 	margin-top: 200px;
 	padding: 0 50px 50px 50px;
@@ -432,7 +433,7 @@ h3{
 .contacto{
 	background-image: url("../imagenes/fondo2.png");
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 100%;
 	background-color: #fff;
 	margin-top: 200px;
 	padding: 0 50px 50px 50px;
