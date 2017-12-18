@@ -654,6 +654,16 @@ h3{
 
 /* MEDIA QUERIES */
 
+@media (min-width: 1400px){
+	.servicios-box{
+		margin: 100px;
+	}
+	
+	.servicios-item{
+		max-width: 600px;
+	}
+}
+
 @media (max-width: 1250px){
 	
 	
