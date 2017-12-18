@@ -345,7 +345,7 @@ h3{
 
 .servicios-item img{
 	height: 300px;
-	max-width: 550px;
+	width: 550px;
 	
 }
 
@@ -374,9 +374,6 @@ h3{
 	font-size: 25px;
 }
 
-.servicios-item img{
-	
-}
 
 
 
