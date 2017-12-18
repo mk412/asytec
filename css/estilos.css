@@ -662,6 +662,10 @@ h3{
 	.servicios-item{
 		max-width: 600px;
 	}
+	
+	.servicios-item img{
+		max-width: 600px;
+	}
 }
 
 @media (max-width: 1250px){
