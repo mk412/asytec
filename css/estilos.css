@@ -774,8 +774,8 @@ h3{
 		padding: 5px;
 	}
 	
-	.empresa img{
-		display: hidden;
+	.destacados{
+		display: none;
 	}
 	
 	.servicios{
