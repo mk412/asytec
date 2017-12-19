@@ -714,6 +714,11 @@ h3{
 }
 
 @media (max-width: 767px){
+	
+	body{
+		margin: 0;
+		padding: 0;
+	}
 		
 	.nav-m{
 		display: block;
