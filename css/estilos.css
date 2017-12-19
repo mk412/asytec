@@ -775,7 +775,7 @@ h3{
 	}
 	
 	.empresa img{
-		display: none;
+		display: hidden;
 	}
 	
 	.servicios{
