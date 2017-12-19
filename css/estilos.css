@@ -700,7 +700,14 @@ h3{
 	.nav ul{
 		margin-right: 25px;
 	}
-		
+	
+	.servicios-item{
+		max-width: 600px;
+	}
+	
+	.servicios-item img{
+		max-width: 600px;
+	}
 }
 
 @media (max-width: 767px){
