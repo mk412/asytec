@@ -692,7 +692,7 @@ h3{
 
 @media (max-width: 991){
 	
-	.home h1{
+	h1{
 		font-size: 40px;
 	}
 }
@@ -772,6 +772,10 @@ h3{
 		font-size: 15px;
 		margin: 0;
 		padding: 5px;
+	}
+	
+	.empresa img{
+		display: none;
 	}
 	
 	.servicios{
