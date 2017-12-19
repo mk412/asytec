@@ -702,6 +702,8 @@ h3{
 	}
 	
 	.servicios-item{
+		margin: auto;
+		margin-bottom: 50px;
 		max-width: 500px;
 	}
 	
